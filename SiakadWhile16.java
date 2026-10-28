@@ -18,6 +18,7 @@ public class SiakadWhile16 {
 
             if (grade > 80 && grade <= 100){
                 System.out.println("The grade of the " + (i + 1) + " student is A");
+                System.out.println("Good, keep the grade!");
             } else if (grade > 73 && grade <= 80){
                 System.out.println("The grade of the " + (i + 1) + " student is B+");
             } else if (grade > 65 && grade <= 73){
@@ -32,7 +33,7 @@ public class SiakadWhile16 {
                 System.out.println("The grade of the " + (i + 1) + " student is E");
             }
 
-            i++; // update counter at the end of the loop
+             i++;// update counter at the end of the loop
         }
 
 

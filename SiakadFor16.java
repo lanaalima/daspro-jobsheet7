@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class SiakadFor16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-         int passed = 0;
+        int passed = 0;
         int failed = 0;
         double grade;
         double highest = 0;
@@ -10,11 +10,10 @@ public class SiakadFor16 {
         for (int i = 1; i <= 10; i++) {
             System.out.print("Enter grade of the " + i + " student: ");
             grade = sc.nextDouble();
-            if (grade >= 60) {
+           if (grade >= 60) {
                 passed++;
             } else {
-                failed++;
-            }
+                failed++; 
             }
             if (grade > highest) {
                 highest = grade;
